@@ -30,7 +30,7 @@ class Config(object):
     SUDO_USERS = get_user_list('980743785', '1291970954')  # List of id's -  (not usernames) for users which have sudo access to the bot.
     DEV_USERS = get_user_list('980743785', '1291970954')  # List of id's - (not usernames) for developers who will have the same perms as the owner
     SUPPORT_USERS = get_user_list('980743785', '1291970954')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = get_user_list('elevated_users.json', 'whitelists')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    WHITELIST_USERS = get_user_list('748642798', '565516995')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     SPAMMERS = None
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
