@@ -17,7 +17,7 @@ class Config(object):
     OWNER_USERNAME = "@Munnipopz"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://cmsvlnvmmwzaew:a43b2788a7349417eeca16cea773f06365a5525a7b075f189a43b6f753f277b4@ec2-3-231-16-122.compute-1.amazonaws.com:5432/d9miocup3iuk6n'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None
     LOAD = []
