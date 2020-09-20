@@ -310,7 +310,7 @@ doin?
 
 __mod_name__ = "FILTERS"
 
-FILTER_HANDLER = CommandHandler("filter", filters)
+FILTER_HANDLER = CommandHandler("fil", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
 STOPALL_HANDLER = DisableAbleCommandHandler("stopall", stop_all_filters)
 LIST_HANDLER = DisableAbleCommandHandler("filters", list_handlers, admin_ok=True)
