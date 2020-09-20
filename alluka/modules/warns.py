@@ -65,7 +65,7 @@ def warn(user: User, chat: Chat, reason: str, message: Message, warner: User = N
         keyboard = InlineKeyboardMarkup([{InlineKeyboardButton("Remove warn",
                                                                callback_data="rm_warn({})".format(user.id))}])
 
-        reply = f"{mention_html(user.id, user.first_name)} has {num_warns}/{limit} warnings... ഇത് നിനക്കുള്ള താക്കീത് ആണ്.. ആവർത്തിച്ചാൽ താക്കോലിട്ട് പൂട്ടികളയും!"
+        reply = f"{mention_html(user.id, user.first_name)} has {num_warns}/{limit} warnings...❌️❌️❌️ ഇത് നിനക്കുള്ള താക്കീത് ആണ്.. ആവർത്തിച്ചാൽ താക്കോലിട്ട് പൂട്ടികളയും!"
         if reason:
             reply += f"\nReason for last warn:\n{html.escape(reason)}"
 
