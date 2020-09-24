@@ -29,7 +29,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("You don't seem to be referring to a user.")
+        message.reply_text("അവൻ നിന്നെക്കാളും വലിയവനാ😁😁😁.")
         return ""
 
     try:
